@@ -88,7 +88,7 @@ a[onclick^="AddArtistField"]:focus, a[onclick^="AddArtistField"]:active {
 .forum_post a[href^="http"] img:hover, .forum_post a[href^="https"] img:hover { padding: 0 0 0 0; background: transparent !important; border: none; }
 
 h1, h2, h3 {
-	margin: 5px 0px;
+	margin: 5px 10px;
 	color: #DFDFDF;
 	font-family: Akzidenz, sans-serif;
 }
@@ -502,6 +502,7 @@ a.permission_23,.permission_23 { /* Christmas Elf */
 	position: absolute;
 	text-align: center;
 	color: #FFF;
+	background-color: #00000080
 }
 
 #cat-selector ul {
@@ -590,8 +591,10 @@ p.min_padding {
 
 .box {
 	font-size: 10pt;
-	background-color: #F7F6F2;
+	background-color: #222021;
 	margin-bottom: 10px;
+  border: 1px solid #000;
+  box-sizing: border-box;
 }
 
 .box2 {
