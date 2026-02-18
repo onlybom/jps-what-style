@@ -502,7 +502,8 @@ a.permission_23,.permission_23 { /* Christmas Elf */
 	position: absolute;
 	text-align: center;
 	color: #FFF;
-	background-color: #00000080
+}
+
 }
 
 #cat-selector ul {
@@ -591,7 +592,7 @@ p.min_padding {
 
 .box {
 	font-size: 10pt;
-	background-color: #222021;
+	background-color: #fff;
 	margin-bottom: 10px;
   border: 1px solid #000;
   box-sizing: border-box;
