@@ -138,6 +138,76 @@ span.size10 { font-size:3em; }
 ul.thin { margin:0px 0px 0px 25px; padding:0px; }
 ul.thin li { margin:0px 0px; padding:0px; }
 
+/* User class */ 
+
+a.permission_1,.permission_1 { /* Anthill Kicker */
+	color: #ffe743;
+	text-shadow: 0 0 3px #bac3db;
+}
+a.permission_2,.permission_2 { /* User */
+	color: #ccc;
+}
+a.permission_3,.permission_3 { /* Member */
+	color: #ADD8E6;
+}
+a.permission_4,.permission_4 { /* Power User */
+	color: #00cc66;
+}
+a.permission_5,.permission_5 {
+	color: #3366CC;
+}
+a.permission_6,.permission_6 { /* VIP */
+	color: #DFB301;
+	text-shadow: 0 0 3px #ff4444;
+}
+a.permission_7,.permission_7 {
+	color: #FFFF66;
+}
+a.permission_8,.permission_8 { /* Radio Moderator */
+	color: #FE9A2E;
+	text-shadow: 0 0 3px #bac3db;
+}
+a.permission_9,.permission_9 {
+	color: #99FFFF;
+}
+a.permission_10,.permission_10 {
+	color: #FFFF66;
+    }
+a.permission_11,.permission_11 { /* Moderator */
+	color: #0099ff;
+text-shadow: 0 0 4px #FFB6C1;
+font-size: 10pt;
+}
+a.permission_12,.permission_12 {
+	color: #CC0000;
+}
+a.permission_13,.permission_13 {
+	color: #996666;
+}
+a.permission_14,.permission_14 { /*Developer */
+	color: #F78181;
+	text-shadow: 0 0 3px #bac3db;
+}
+a.permission_15,.permission_15 { /* Sysop */
+	color: #ffff99;
+	text-shadow: 0 0 3px #bac3db;
+}
+a.permission_20,.permission_20 { /* Donor */
+	color: #ff4444;
+font-size: 9pt;
+}
+a.permission_21,.permission_21 { /* Restricted */
+	color: #666;;
+}
+a.permission_22,.permission_22 { /* Super VIP */
+	color: #ff4444;
+	text-shadow: 0 0 3px #ff4444;	
+}
+a.permission_23,.permission_23 { /* Christmas Elf */
+	color: #00cc66;
+	text-shadow: 0 0 3px #ff4444;
+}
+
 /* Layout (Every page) */
 #wrapper {
 	padding: 0 0 0 0;
