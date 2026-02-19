@@ -1220,3 +1220,20 @@ input[type="search"] {
     height: 34px !important;
     background-size: contain !important;
 }
+
+.pad img[width="150"] {
+    margin: 0 !important;
+}
+
+.pad:has(img[width="150"]) {
+    padding: 0 !important;
+}
+
+/* Remove padding just for .pad sections containing thumbnail tables */
+.pad > table {
+    margin: 0 !important;       /* Remove table margin */
+}
+
+.pad:has(> table) {
+    padding: 0 !important;      /* Remove padding from the pad div itself */
+}
