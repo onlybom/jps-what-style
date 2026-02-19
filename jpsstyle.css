@@ -830,7 +830,6 @@ ul.poll li.graph {
 	border-bottom:1px solid #efefef;
 }
 
-tr.group_torrent td,
 tr.group td,
 tr.torrent td {
 	color: #646054;
@@ -1204,4 +1203,20 @@ input[type="search"] {
 .group_torrent span,
 .group_torrent_redline span {
     float: right !important;
+}
+
+.torrent_table tr.group_redline td {
+    padding: 14px 6px !important;
+}
+
+.torrent_table tr.group_redline img {
+    max-width: 85px !important;
+    max-height: 85px !important;
+}
+
+.show_torrents,
+ {
+    width: 34px !important;
+    height: 34px !important;
+    background-size: contain !important;
 }
