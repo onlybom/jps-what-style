@@ -4,7 +4,39 @@ This design incorporates some code from the 'Customize Zeal' Greasemonkey script
 */
 
 /* Layout (Torrents page) */
+.group_torrent span,
+.group_torrent_redline span,
+.torrent_redline span {
+    float: right !important;
+}
 
+.torrent_table tr.group_redline, tr.torrent_redline td {
+    padding: 14px 6px !important;
+}
+
+.torrent_table tr.group_redline img,
+.torrent_table tr.torrent_redline img,
+.torrent_table tr.group_torrent img {
+    max-width: 85px !important;
+    max-height: 85px !important;
+}
+
+}
+
+.show_torrents,
+ {
+    width: 34px !important;
+    height: 34px !important;
+    background-size: contain !important;
+}
+
+.pad img[width="150"] {
+    margin: 0 !important;
+}
+
+.pad:has(img[width="150"]) {
+    padding: 0 !important;
+}
 
 /* Global */
 @font-face { font-family: Akzidenz; src: url('https://redacted.sh/static/styles/postmod/images/Akzidenz.otf'); }
@@ -1198,36 +1230,6 @@ div.sidebar #event_div {
 
 input[type="search"] {
 	font-size: 13px;
-}
-
-.group_torrent span,
-.group_torrent_redline span,
-.torrent_redline span {
-    float: right !important;
-}
-
-.torrent_table tr.group_redline, tr.torrent_redline td {
-    padding: 14px 6px !important;
-}
-
-.torrent_table tr.group_redline, tr.torrent_redline img {
-    max-width: 85px !important;
-    max-height: 85px !important;
-}
-
-.show_torrents,
- {
-    width: 34px !important;
-    height: 34px !important;
-    background-size: contain !important;
-}
-
-.pad img[width="150"] {
-    margin: 0 !important;
-}
-
-.pad:has(img[width="150"]) {
-    padding: 0 !important;
 }
 
 /* Remove padding just for .pad sections containing thumbnail tables */
