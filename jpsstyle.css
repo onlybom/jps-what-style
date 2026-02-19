@@ -1201,15 +1201,16 @@ input[type="search"] {
 }
 
 .group_torrent span,
-.group_torrent_redline span {
+.group_torrent_redline span,
+.torrent_redline span {
     float: right !important;
 }
 
-.torrent_table tr.group_redline td {
+.torrent_table tr.group_redline, tr.torrent_redline td {
     padding: 14px 6px !important;
 }
 
-.torrent_table tr.group_redline img {
+.torrent_table tr.group_redline, tr.torrent_redline img {
     max-width: 85px !important;
     max-height: 85px !important;
 }
