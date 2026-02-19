@@ -665,7 +665,7 @@ table {
 
 tr {
 	border: none;
-	background-color: #fbfaf8;
+	background-color: #EFEFEF;
 }
 
 tr.rowa {
@@ -825,7 +825,7 @@ ul.poll li.graph {
 .torrent_table tr.group {
 	background-color:#EFEFEF;
 }
-.torrent_table tr.group_torrent {
+.torrent_table tr[class*="group_torrent"] {
 	background-color:#fbfaf8;
 	border-bottom:1px solid #efefef;
 }
@@ -1199,4 +1199,9 @@ div.sidebar #event_div {
 
 input[type="search"] {
 	font-size: 13px;
+}
+
+.group_torrent span,
+.group_torrent_redline span {
+    float: right !important;
 }
